@@ -171,6 +171,25 @@ footer {
     margin: 10px;
 }
 
+
+@media only screen and (max-width: 450px) {
+    nav {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .ildiesign-nav-logo {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .menu-item-container {
+        display: block;
+    }
+}
+
+
 @media only screen and (max-width: 510px) {
     #email-btn-container {
         position: fixed;
@@ -198,19 +217,14 @@ footer {
     }
 }
 
-@media only screen and (max-width: 450px) {
-    nav {
-        padding-top: 30px;
-        padding-bottom: 20px;
+@media only screen and (max-width: 704px){
+    .notifications-thumb, .kit-thumb, .statistics-thumb, .plantcare-thumb {
+        display: none;
     }
+}
 
-    .ildiesign-nav-logo {
-        display: block;
-        float: none;
-        margin: 0 auto;
-    }
-
-    .menu-item-container {
-        display: block;
+@media only screen and (max-width: 1058px){
+    .notifications-thumb, .kit-thumb {
+        display: none;
     }
 }
