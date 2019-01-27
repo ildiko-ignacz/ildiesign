@@ -2,7 +2,7 @@
     /*1 Main website */
     /*2 Home page*/
     /*3 Daily UI*/
-
+    /*4 About Me*/
 
 
 
@@ -25,6 +25,24 @@ nav {
     position: relative;
     z-index: 2;
 }
+
+.main-title {
+    font-size: 24px;
+}
+
+.subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.basic-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
 
 .menu-item-container {
     display: inline-block;
@@ -69,6 +87,7 @@ nav {
 footer {
     height: 50px;
     background-color: #EEEEEE;
+    clear: both;
 }
 
 /*2 HOME PAGE*/
@@ -108,6 +127,15 @@ footer {
     border-radius: 0 0 5px 5px;
 }
 
+.daily-description {
+    max-width: 600px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 auto 30px auto;
+    padding: 0 30px;
+}
+
 .count-title {
     opacity: 0.5;
     margin-top: 25px;
@@ -125,21 +153,9 @@ footer {
     padding-bottom: 60px;
 }
 
-.main-title {
-    font-size: 24px;
-}
 
 .daily-ui-title {
     margin-bottom: 25px;
-}
-
-.daily-description {
-    max-width: 600px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 25px;
-    margin: 0 auto 30px auto;
-    padding: 0 30px;
 }
 
 .blue-button {
@@ -170,6 +186,109 @@ footer {
 .daily-thumbnail {
     margin: 10px;
 }
+
+/*ABOUT ME ------------------------------------------------------------------------------------------*/
+
+
+.about-me-container {
+    padding-top: 70px;
+    width: 100%;
+    background-color: #F9F9F9;
+    height: auto;
+}
+
+.skills-container {
+    background-color: white;
+    border-radius: 5px;
+    padding: 35px 75px;
+}
+
+.ildiesign-intro {
+    max-width: 1040px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+#ildiesign-intro {
+    margin-bottom: 60px;
+}
+
+.profile-picture {
+    display: inline-block;
+    float: left;
+    padding-left: 30px;
+}
+
+#intro-description {
+    padding-left: 50px;
+    float: left;
+    max-width: 650px;
+}
+
+#intro-main-title {
+    margin-bottom: 10px;
+}
+
+#intro-subtitle {
+    margin-bottom: 30px;
+}
+
+#competencies-list {
+    float: left;
+}
+
+.skills-left-wrapper {
+    width: 350px;
+}
+
+.skills-right-wrapper {
+    max-width: 540px;
+}
+
+.skills-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.competencies-item {
+    margin-bottom: 15px;
+    font-size: 14px;
+
+}
+
+.skills-container {
+    clear: both;
+}
+
+.softwares-list {
+    float: left;
+    margin-bottom: 30px
+}
+
+.soft-type {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: #EEEEEE solid 1px;
+    background: url(Resources/images/email-icon.svg) white center no-repeat;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.soft-type-large {
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+}
+
+#technologies-list {
+    float: left;
+}
+
+
+
 
 
 @media only screen and (max-width: 450px) {
