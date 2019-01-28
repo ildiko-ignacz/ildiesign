@@ -43,6 +43,16 @@ nav {
     line-height: 27px;
 }
 
+.secondary-description {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 36px
+}
+
+.bold {
+    font-weight: 700;
+}
+
 
 .menu-item-container {
     display: inline-block;
@@ -234,16 +244,31 @@ footer {
     margin-bottom: 30px;
 }
 
-#competencies-list {
-    float: left;
+.top-skillset {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 30px;
 }
 
+.bottom-skillset {
+    clear: both;
+    overflow: hidden;
+}
+
+/*#competencies-list {*/
+    /*float: left;*/
+/*}*/
+
 .skills-left-wrapper {
-    width: 350px;
+    /*width: 350px;*/
+    float: left;
+    width: 50%;
 }
 
 .skills-right-wrapper {
-    max-width: 540px;
+    /*max-width: 540px;*/
+    float: left;
+    width: 50%;
 }
 
 .skills-title {
@@ -263,7 +288,7 @@ footer {
 }
 
 .softwares-list {
-    float: left;
+    /*float: left;*/
     margin-bottom: 30px
 }
 
@@ -272,9 +297,12 @@ footer {
     height: 40px;
     border-radius: 20px;
     border: #EEEEEE solid 1px;
-    background: url(Resources/images/email-icon.svg) white center no-repeat;
+    background: url(Resources/images/software-spritesheet.svg) no-repeat;
     display: inline-block;
-    margin-right: 20px;
+    margin: 0 15px 15px 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .soft-type-large {
@@ -287,6 +315,69 @@ footer {
     float: left;
 }
 
+#sketch {
+    background-position: 8px 12px;
+}
+
+#invision {
+    background-position: -31px 12px;
+}
+
+#principle {
+    background-position: -65px 12px;
+}
+
+#photoshop {
+    background-position: -101px 12px;
+}
+
+#realtimeboard {
+    background-position: -138px 12px;
+}
+
+#illustrator {
+    background-position: -175px 11px;
+}
+
+#figma {
+    background-position: -208px 11px;
+}
+
+#xd {
+    background-position: -242px 11px;
+}
+
+#html {
+    background-position: 23px -40px;
+}
+
+#css {
+    background-position: -36px -40px;
+}
+
+#saas {
+    background-position: -101px -40px;
+}
+
+#javascript {
+    background-position: -165px -40px;
+}
+
+#bootstrap {
+    background-position: -227px -40px;
+}
+
+.work-experience {
+    background: url("resources/images/timline-icon.svg") no-repeat left 44px;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+
+.education {
+    background: url("resources/images/timline-icon.svg") no-repeat left 44px;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
 
 
 
