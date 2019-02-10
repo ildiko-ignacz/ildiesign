@@ -259,6 +259,10 @@ footer {
     overflow: hidden;
 }
 
+/*#technologies {*/
+    /*margin-top: 30px;*/
+/*}*/
+
 /*#competencies-list {*/
     /*float: left;*/
 /*}*/
@@ -326,6 +330,7 @@ footer {
 
 #technologies-list {
     float: left;
+    width: 55%;
 }
 
 #sketch {
@@ -445,12 +450,12 @@ footer {
 }
 
 #testimonials {
-    padding: 60px 75px;
+    padding: 60px 75px 85px 75px;
 }
 
 .testimonial-card {
     width: 30%;
-    height: 345px;
+    min-height: 345px;
     background-color: white;
     border-radius: 5px;
     display: inline-block;
@@ -530,7 +535,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 830px){
+@media only screen and (max-width: 900px){
     #ildiesign-intro {
         padding: 0 30px;
     }
@@ -539,10 +544,23 @@ footer {
         padding: 35px 30px;
     }
 
-    #testimonials {
-        padding: 60px 30px;
-    }
+    /*#competencies-list {*/
+        /*width: 210px;*/
+        /*margin-right: 0;*/
+    /*}*/
+
+    /*.softwares-list, #technologies-list{*/
+        /*margin-left: 50px;*/
+        /*width: calc(100% - 260px);*/
+    /*}*/
+
+    /*#testimonials {*/
+        /*padding: 60px 30px;*/
+    /*}*/
+
+
 }
+
 
 
 
@@ -550,4 +568,62 @@ footer {
     .notifications-thumb, .kit-thumb {
         display: none;
     }
+
+    #competencies-list {
+        width: 210px;
+        margin-right: 0;
+    }
+
+    .softwares-list, #technologies-list{
+        margin-left: 50px;
+        width: calc(100% - 260px);
+    }
+
+    #work-experience {
+        width: 46%;
+        margin-right: 4%;
+    }
+
+    #education {
+        width: 46%;
+    }
+
+
+
+    #testimonials {
+        padding: 60px 30px;
+    }
+}
+
+@media only screen and (max-width: 805px) {
+
+    .profile-picture {
+        display: block;
+        float: none;
+        margin: auto;
+    }
+
+    #intro-description {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    #technologies-list {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .testimonial-card {
+        width: 100%;
+        min-height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .middle-card {
+        margin: 0 0 20px 0;
+    }
+
 }
