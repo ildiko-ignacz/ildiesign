@@ -440,6 +440,41 @@ footer {
     left: -6px;
 }
 
+#testimonials-title {
+    margin-bottom: 40px;
+}
+
+#testimonials {
+    padding: 60px 75px;
+}
+
+.testimonial-card {
+    width: 30%;
+    height: 345px;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.testimonial-content {
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.end-quote {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.middle-card {
+    margin: 0 4%;
+}
+
+
 
 
 
@@ -502,6 +537,10 @@ footer {
 
     .skills-container {
         padding: 35px 30px;
+    }
+
+    #testimonials {
+        padding: 60px 30px;
     }
 }
 
