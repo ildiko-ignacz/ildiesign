@@ -201,7 +201,7 @@ footer {
 
 
 .about-me-container {
-    padding-top: 70px;
+    padding-top: 60px;
     width: 100%;
     background-color: #F9F9F9;
     height: auto;
@@ -222,18 +222,22 @@ footer {
 
 #ildiesign-intro {
     margin-bottom: 60px;
+    padding: 0 75px;
 }
 
 .profile-picture {
     display: inline-block;
     float: left;
-    padding-left: 30px;
+    /*padding-left: 30px;*/
+    width: 210px;
 }
 
 #intro-description {
     padding-left: 50px;
     float: left;
-    max-width: 650px;
+    /*max-width: 650px;*/
+    box-sizing: border-box;
+    width: calc(100% - 260px);
 }
 
 #intro-main-title {
@@ -490,6 +494,18 @@ footer {
         display: none;
     }
 }
+
+@media only screen and (max-width: 830px){
+    #ildiesign-intro {
+        padding: 0 30px;
+    }
+
+    .skills-container {
+        padding: 35px 30px;
+    }
+}
+
+
 
 @media only screen and (max-width: 1058px){
     .notifications-thumb, .kit-thumb {
