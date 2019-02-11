@@ -519,6 +519,11 @@ footer {
     .daily-ui-header {
         padding-top: 130px;
     }
+
+    /*.softwares-list {*/
+        /*width: 100%;*/
+        /*margin-left: 0;*/
+    /*}*/
 }
 
 @media only screen and (max-width: 704px){
@@ -535,21 +540,6 @@ footer {
     .skills-container {
         padding: 35px 30px;
     }
-
-    /*#competencies-list {*/
-        /*width: 210px;*/
-        /*margin-right: 0;*/
-    /*}*/
-
-    /*.softwares-list, #technologies-list{*/
-        /*margin-left: 50px;*/
-        /*width: calc(100% - 260px);*/
-    /*}*/
-
-    /*#testimonials {*/
-        /*padding: 60px 30px;*/
-    /*}*/
-
 
 }
 
@@ -579,8 +569,6 @@ footer {
     #education {
         width: 46%;
     }
-
-
 
     #testimonials {
         padding: 60px 30px;
@@ -626,6 +614,45 @@ footer {
 
     .middle-card {
         margin: 0 0 20px 0;
+    }
+
+}
+
+@media only screen and (max-width: 510px) {
+
+    #intro-main-title {
+        line-height: 31px;
+    }
+
+    .softwares-list {
+        width: 70%;
+        /*margin: 0 auto 30px auto;*/
+        text-align: center;
+    }
+
+    #competencies-list {
+        text-align: center;
+        width: 100%;
+    }
+
+    #technologies-list {
+        text-align: center;
+    }
+
+    #work-experience {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #education {
+        width: 100%;
+    }
+
+    #testimonials-title {
+        text-align: center;
+        width: 70%;
+        line-height: 31px;
+        margin: 0 auto 40px auto;
     }
 
 }
