@@ -259,14 +259,6 @@ footer {
     overflow: hidden;
 }
 
-/*#technologies {*/
-    /*margin-top: 30px;*/
-/*}*/
-
-/*#competencies-list {*/
-    /*float: left;*/
-/*}*/
-
 .skills-left-wrapper {
     /*width: 350px;*/
     float: left;
@@ -597,10 +589,20 @@ footer {
 
 @media only screen and (max-width: 805px) {
 
+    .about-me-container {
+        padding-top: 30px;
+    }
+
     .profile-picture {
         display: block;
         float: none;
-        margin: auto;
+        margin: 0 auto 30px auto;
+        text-align: center;
+    }
+
+    .ildiko-picture {
+        width: 150px;
+        height: 150px;
     }
 
     #intro-description {
