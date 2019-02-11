@@ -521,6 +521,14 @@ footer {
         padding-top: 130px;
     }
 
+    .guide-thumb {
+        display: none;
+    }
+
+    .white-overlay {
+        height: 250px;
+    }
+
     /*.softwares-list {*/
         /*width: 100%;*/
         /*margin-left: 0;*/
