@@ -14,7 +14,7 @@
     color: #242E4C;
 }
 
-nav {
+#main-nav {
     width: 100%;
     text-align: center;
     background-color: white;
@@ -94,11 +94,124 @@ nav {
     cursor: pointer;
 }
 
+/*FOOTER ----------------------------------------------------------------------------*/
+
 footer {
     height: 50px;
-    background-color: #EEEEEE;
+    background-color: #ffffff;
     clear: both;
+    padding: 0 20px 0 30px;
+    line-height: 50px;
 }
+
+.footer-nav {
+    display: inline-block;
+}
+
+.footer-menu-item {
+    font-size: 12px;
+    margin-right: 30px;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+    font-weight: 700;
+}
+
+.footer-menu-item:hover {
+    opacity: 1;
+}
+
+.copyright {
+    font-size: 12px;
+    line-height: 50px;
+    opacity: 0.5;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.social-media-container {
+    display: inline-block;
+    float: right;
+}
+
+.social-button {
+    width: 35px;
+    height: 35px;
+    /*border: #ee3e57 solid 1px;*/
+    background: url(Resources/images/social-icons.svg) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+#twitter-btn {
+    background-position: 10px 9px;
+
+}
+
+#twitter-btn:hover {
+    background: url("Resources/images/social-icons-colored.svg") no-repeat;
+    background-position: 10px 9px;
+}
+
+#behance-btn {
+    background-position: -42px 9px;
+}
+
+#behance-btn:hover {
+    background: url("Resources/images/social-icons-colored.svg") no-repeat;
+    background-position: -42px 9px;
+}
+
+#linked-in-btn {
+    background-position: -95px 7px;
+}
+
+#linked-in-btn:hover {
+    background: url("Resources/images/social-icons-colored.svg") no-repeat;
+    background-position: -95px 7px;
+}
+
+
+#github-btn {
+    background-position: -147px 9px;
+}
+
+#github-btn:hover {
+    background: url("Resources/images/social-icons-colored.svg") no-repeat;
+    background-position: -147px 9px;
+}
+
+#dribbble-btn {
+    background-position: -198px 9px;
+}
+
+#dribbble-btn:hover {
+    background: url("Resources/images/social-icons-colored.svg") no-repeat;
+    background-position: -198px 9px;
+}
+
+#facebook-btn {
+    background-position: -246px 9px;
+}
+
+#facebook-btn:hover {
+    background: url("Resources/images/social-icons-colored.svg") no-repeat;
+    background-position: -246px 9px;
+}
+
+#instagram-btn {
+    background-position: -294px 9px;
+}
+
+#instagram-btn:hover {
+    background: url("Resources/images/social-icons-colored.svg") no-repeat;
+    background-position: -294px 9px;
+}
+
+
+
 
 /*2 HOME PAGE*/
 
@@ -109,7 +222,7 @@ footer {
 
 }
 
-/*3 DAILY UI-----------------------------------------------------------------------------*/
+/*3 DAILY UI -----------------------------------------------------------------------------*/
 
 #daily-ui-container {
     width: 100%;
@@ -378,17 +491,10 @@ footer {
 }
 
 .work-experience {
-    /*background: url("resources/images/timline-icon.svg") no-repeat left 44px;*/
     padding-left: 6px;
     box-sizing: border-box;
     position: relative;
 }
-
-/*.education {*/
-    /*background: url("resources/images/timline-icon.svg") no-repeat left 44px;*/
-    /*padding-left: 25px;*/
-    /*box-sizing: border-box;*/
-/*}*/
 
 .border-left {
     border-left: 2px solid #EEEEEE;
@@ -471,13 +577,8 @@ footer {
     margin: 0 4%;
 }
 
-
-
-
-
-
 @media only screen and (max-width: 450px) {
-    nav {
+    #main-nav {
         padding-top: 30px;
         padding-bottom: 20px;
     }
@@ -492,7 +593,6 @@ footer {
         display: block;
     }
 }
-
 
 @media only screen and (max-width: 510px) {
     #email-btn-container {
@@ -529,10 +629,6 @@ footer {
         height: 250px;
     }
 
-    /*.softwares-list {*/
-        /*width: 100%;*/
-        /*margin-left: 0;*/
-    /*}*/
 }
 
 @media only screen and (max-width: 704px){
