@@ -142,7 +142,7 @@ footer {
     display: inline-block;
     vertical-align: middle;
     margin-right: 0;
-    transition: all 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
 }
 
 #twitter-btn {
@@ -151,17 +151,15 @@ footer {
 }
 
 #twitter-btn:hover {
-    background: url("Resources/images/social-icons-colored.svg") no-repeat;
-    background-position: 10px 9px;
+    background-position: 10px -33px;
 }
 
-#behance-btn {
+#behance-social-btn {
     background-position: -42px 9px;
 }
 
-#behance-btn:hover {
-    background: url("Resources/images/social-icons-colored.svg") no-repeat;
-    background-position: -42px 9px;
+#behance-social-btn:hover {
+    background-position: -42px -33px;
 }
 
 #linked-in-btn {
@@ -169,8 +167,7 @@ footer {
 }
 
 #linked-in-btn:hover {
-    background: url("Resources/images/social-icons-colored.svg") no-repeat;
-    background-position: -95px 7px;
+    background-position: -95px -35px;
 }
 
 
@@ -179,8 +176,8 @@ footer {
 }
 
 #github-btn:hover {
-    background: url("Resources/images/social-icons-colored.svg") no-repeat;
-    background-position: -147px 9px;
+
+    background-position: -147px -33px;
 }
 
 #dribbble-btn {
@@ -188,8 +185,7 @@ footer {
 }
 
 #dribbble-btn:hover {
-    background: url("Resources/images/social-icons-colored.svg") no-repeat;
-    background-position: -198px 9px;
+    background-position: -198px -33px;
 }
 
 #facebook-btn {
@@ -197,8 +193,7 @@ footer {
 }
 
 #facebook-btn:hover {
-    background: url("Resources/images/social-icons-colored.svg") no-repeat;
-    background-position: -246px 9px;
+    background-position: -246px -33px;
 }
 
 #instagram-btn {
@@ -206,8 +201,7 @@ footer {
 }
 
 #instagram-btn:hover {
-    background: url("Resources/images/social-icons-colored.svg") no-repeat;
-    background-position: -294px 9px;
+    background-position: -294px -33px;
 }
 
 
