@@ -364,8 +364,10 @@ footer {
 
 .top-skillset {
     display: block;
-    overflow: hidden;
+    /*overflow: hidden;*/
     margin-bottom: 30px;
+    height: auto;
+    float: left;
 }
 
 .bottom-skillset {
@@ -422,12 +424,67 @@ footer {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.soft-type:hover, .soft-type-large:hover {
+    /*background: #FFFFFF;*/
+    /*border: 1px solid #EEEEEE;*/
+    box-shadow: 0 2px 15px 0 rgba(36,46,76,0.15);
+}
+
+.skillset-container {
+    position: relative;
 }
 
 .soft-type-large {
     width: 70px;
     height: 70px;
     border-radius: 40px;
+}
+
+.sketch-tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip {
+    /*visibility: hidden;*/
+    position: absolute;
+    background: #000000;
+    border-radius: .4em;
+    width: 240px;
+    /*height: 170px;*/
+    padding: 35px 30px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 23px;
+    z-index: 99;
+}
+
+.tooltip:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #000000;
+    border-top: 0;
+    margin-left: -20px;
+    margin-top: -8px;
+}
+
+#sketch-tooltip {
+    left: -119px;
+    top: 55px;
+}
+
+#sketch:hover .tooltip {
+    visibility: visible;
 }
 
 #technologies-list {
