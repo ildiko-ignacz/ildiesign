@@ -37,17 +37,10 @@
     background-position-y: 38px;
 }
 
-/*.arrow-right {*/
-    /*width: 15px;*/
-    /*margin-left: 20px;*/
-    /*margin-top: 38px;*/
-/*}*/
-
 .previous {
     left: -70px;
     position: fixed;
     transition: left ease-in-out 0.2s, opacity ease-in-out 0.2s;
-
 }
 
 .previous:hover {
