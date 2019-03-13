@@ -73,6 +73,7 @@
 
 .menu-item-container {
     display: inline-block;
+    margin-left: -42px;
 }
 
 .ildiesign-nav-logo {
