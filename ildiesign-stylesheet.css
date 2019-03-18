@@ -502,7 +502,7 @@ footer {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-    cursor: pointer;
+    /*cursor: pointer;*/
     transition: box-shadow 0.3s ease-in-out;
 }
 
